@@ -1,0 +1,52 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\SYunMoon\Python_program\image processing\CUDA 10.2 Runtime1\cuda_image_pyramid>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\SYunMoon\Python_program\image processing\CUDA 10.2 Runtime1\cuda_image_pyramid\kernel.cu" 
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(44): warning : variable "max" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(45): warning : variable "min" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(140): warning : variable "output_index" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(142): warning : variable "temp" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(218): warning : variable "rolp_value" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(315): warning : variable "max_cpu" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(316): warning : variable "dev_image" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(317): warning : variable "THREADS_PER_BLOCK" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(448): warning : variable "dev_max" was declared but never referenced
+  
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(26): warning : variable "RANGE" was declared but never referenced
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+  kernel.cu
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(37): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(102): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(109): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(120): warning C4244: '=': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=unsigned short
+          ]
+C:/Users/SYunMoon/Python_program/image processing/CUDA 10.2 Runtime1/cuda_image_pyramid/kernel.cu(448): warning C4101: 'dev_max': unreferenced local variable
+     Creating library C:\Users\SYunMoon\Python_program\image processing\CUDA 10.2 Runtime1\x64\Release\cuda_image_pyramid.lib and object C:\Users\SYunMoon\Python_program\image processing\CUDA 10.2 Runtime1\x64\Release\cuda_image_pyramid.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  cuda_image_pyramid.vcxproj -> C:\Users\SYunMoon\Python_program\image processing\CUDA 10.2 Runtime1\x64\Release\cuda_image_pyramid.exe
