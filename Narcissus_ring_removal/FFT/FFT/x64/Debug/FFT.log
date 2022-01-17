@@ -1,0 +1,10 @@
+﻿  fft.cpp
+C:\Users\SYunMoon\Python_program\fix-narcissus-rings\FFT\FFT\fft.cpp(15,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\SYunMoon\Python_program\fix-narcissus-rings\FFT\FFT\fft.cpp(76,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\SYunMoon\Python_program\fix-narcissus-rings\FFT\FFT\fft.cpp(83,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\SYunMoon\Python_program\fix-narcissus-rings\FFT\FFT\fft.cpp(94,40): warning C4244: '=': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=ushort
+          ]
+  FFT.vcxproj -> C:\Users\SYunMoon\Python_program\fix-narcissus-rings\FFT\x64\Debug\FFT.exe
