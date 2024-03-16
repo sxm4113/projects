@@ -1,0 +1,3 @@
+xvlog ./tb_clock_generator.v ./clock_gating_model.v
+xelab tb_clock_generator -debug wave -s tb_clock_generator
+xsim tb_clock_generator -gui -wdb simulate_xsim_tb_clock_generator.wdb 
