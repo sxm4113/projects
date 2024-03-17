@@ -1,0 +1,3 @@
+xvlog ./tb_combi_test.v ./combi_test_0.v ./combi_test_1.v
+xelab tb_combi_test -debug wave -s tb_combi_test
+xsim tb_combi_test -gui -wdb simulate_xsim_tb_combi_test.wdb 
