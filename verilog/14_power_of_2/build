@@ -1,0 +1,4 @@
+xvlog ./power_of_8.v ./tb_power_of_8.v
+xelab tb_power_of_8 -debug wave -s tb_power_of_8
+#xsim tb_power_of_8 -R  # do not check waveform
+xsim tb_power_of_8 -gui -wdb simulate_xsim_tb_power_of_8.wdb 
