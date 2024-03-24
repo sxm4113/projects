@@ -1,0 +1,4 @@
+xvlog ./fsm_counter_test.v ./tb_fsm_counter_test.v
+xelab tb_fsm_counter_test -debug wave -s tb_fsm_counter_test
+#xsim tb_fsm_counter_test -R  # do not check waveform
+xsim tb_fsm_counter_test -gui -wdb simulate_xsim_tb_fsm_counter_test.wdb 
