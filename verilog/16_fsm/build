@@ -1,0 +1,4 @@
+xvlog ./fsm_test.v ./tb_fsm_test.v
+xelab tb_fsm_test -debug wave -s tb_fsm_test
+#xsim tb_fsm_test -R  # do not check waveform
+xsim tb_fsm_test -gui -wdb simulate_xsim_tb_fsm_test.wdb 
