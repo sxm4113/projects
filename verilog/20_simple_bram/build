@@ -1,0 +1,4 @@
+xvlog ./true_dpbram.v ./simple_bram_ctrl.v ./tb_simple_bram_ctrl.v
+xelab tb_simple_bram_ctrl -debug wave -s tb_simple_bram_ctrl
+#xsim tb_simple_bram_ctrl -R  # do not check waveform
+xsim tb_simple_bram_ctrl -gui -wdb simulate_xsim_tb_simple_bram_ctrl.wdb 
