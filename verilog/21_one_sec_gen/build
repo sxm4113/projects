@@ -1,0 +1,4 @@
+xvlog --sv -f ./design_list.f -f ./testbench_list.f
+xelab tb_matbi_one_sec_gen -debug wave -s tb_matbi_one_sec_gen
+#xsim tb_matbi_one_sec_gen -R  # do not check waveform
+xsim tb_matbi_one_sec_gen -gui -wdb simulate_xsim_tb_matbi_one_sec_gen.wdb -tclbatch matbi_sim.tcl &
