@@ -1,0 +1,4 @@
+xvlog --sv -f ./design_list.f -f ./testbench_list.f
+xelab tb_matbi_watch_top -debug wave -s tb_matbi_watch_top
+#xsim tb_matbi_watch_top -R  # do not check waveform
+xsim tb_matbi_watch_top -gui -wdb simulate_xsim_tb_matbi_watch_top.wdb -tclbatch matbi_sim.tcl &
